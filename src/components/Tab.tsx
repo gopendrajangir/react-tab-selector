@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, Dispatch, SetStateAction, useRef } from 'react'
 import { useEffect } from 'react';
-import slideGlider from './utils/slideGlider';
+import slideGlider from '../utils/slideGlider';
 
 interface TabProps extends PropsWithChildren {
   index: number;
